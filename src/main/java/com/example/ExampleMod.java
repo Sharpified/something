@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package com.example;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.api.ClientModInitializer;
@@ -14,7 +14,7 @@ public class ExampleMod implements ModInitializer, ClientModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println("PvP Mod Loaded!");
+        System.out.println("PvP Mod Initialized!");
     }
 
     @Override
