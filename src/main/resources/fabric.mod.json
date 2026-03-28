@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "modid",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description!",
+	"name": "PvP Binds",
+	"description": "Custom PvP Keybinds for 1.21.x",
 	"authors": [
 		"Me!"
 	],
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fabricmc.example.ExampleMod"
+			"com.example.ExampleMod"
 		],
 		"client": [
-			"net.fabricmc.example.ExampleMod"
+			"com.example.ExampleMod"
 		]
 	},
 	"depends": {
