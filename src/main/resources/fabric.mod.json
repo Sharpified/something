@@ -3,7 +3,7 @@
 	"id": "modid",
 	"version": "${version}",
 	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is an example description!",
 	"authors": [
 		"Me!"
 	],
@@ -22,14 +22,6 @@
 			"net.fabricmc.example.ExampleMod"
 		]
 	},
-	
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.16.0",
 		"minecraft": "~1.21",
